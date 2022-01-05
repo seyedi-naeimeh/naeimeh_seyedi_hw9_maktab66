@@ -1,0 +1,10 @@
+.stats-item:nth-child(2n+1){
+    background-color: #cccccc;
+    padding: 80px 20px;
+    
+}
+.stats-item:nth-child(2n){
+    background-color:#efefef;
+    padding: 80px 20px;
+    
+}

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+.clear {
+  clear: both;
+}
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+.logo1 {
+  float: left;
+}
+.logo1 img {
+  width: 60px;
+  height: 60px;
+}
+.log {
+  float: right;
+}
+
+#nav li {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+}
+#nav li:hover {
+  background-color: rgb(228, 214, 24);
+}
+#nav li a {
+  text-decoration: none;
+  color: rgb(42, 169, 203);
+  display: block;
+  padding: 10px 0;
+}
+#header {
+  background-color: rgb(42, 169, 203);
+}
+.des li {
+  display: inline-block;
+  padding: 20px 0;
+}
+.des li a {
+  text-decoration: none;
+  color: white;
+}
+.des li:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+.des li:nth-child(2) {
+  float: right;
+}
+
+#content {
+  width: 87%;
+  text-align: center;
+}
+.post {
+  background-color: white;
+  width: 300px;
+  height: 310px;
+  float: right;
+  border: 1px solid #bbb;
+  margin: 10px;
+  text-align: center;
+}
+.post:hover {
+  box-shadow: 0 0 5px -1px;
+}
+.post a {
+  text-decoration: none;
+}
+.post h3 {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.destination h1,
+h2 {
+  text-align: center;
+  padding-left: 20%;
+}
+.destination h1 {
+  color: rgb(42, 169, 203);
+}
+.destination h2 {
+  font-size: 20px;
+  color: rgb(81, 81, 82);
+}
+
+.destination {
+  margin: 40px;
+}
+.sub {
+  width: 35%;
+}
+.button {
+  padding: 10px 20px;
+  margin: 20px auto;
+  background-color: rgb(176, 208, 54);
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  box-shadow: 0 0 5px -1px;
+}
+
+.col {
+  float: right;
+
+  padding: 25px;
+}
+.col li a {
+  text-decoration: none;
+  color: black;
+}
+.subscribe {
+  background-color: rgb(42, 169, 203);
+}
+
+.subscribe1 {
+  float: right;
+  margin: 20px;
+}
+.subscribe2 {
+  float: left;
+  margin: 20px;
+}
+.subscribe2 p {
+  padding-left: 50px;
+  font-size: 25px;
+  color: white;
+}
+.subscribe1 input {
+  padding: 10px;
+}
+#copyright{
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    color: #bbb;
+    background-color: rgb(47, 169, 203);
+}
